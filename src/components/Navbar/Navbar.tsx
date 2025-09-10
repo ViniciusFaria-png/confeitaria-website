@@ -8,7 +8,7 @@ import MenuItem from "@mui/material/MenuItem";
 import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
 import * as React from "react";
-import logoImage from "../../../public/logoLogo.png";
+import logoImage from "/logoLogo.png";
 
 // export function Navbar() {
 const pages = ["Início", "Sobre", "Nossas Delícias", "Galeria", "Contato"];

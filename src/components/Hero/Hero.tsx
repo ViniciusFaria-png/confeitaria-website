@@ -11,7 +11,8 @@ export function Hero() {
         width: "100%",
         height: { xs: "auto", sm: "calc(100vh - 80px)" },
         minHeight: { xs: "300px", sm: "500px" },
-        backgroundImage: { xs: "none", sm: `url(${heroImage})` },
+        // backgroundImage: { xs: "none", sm: `url(${heroImage})` },
+        backgroundImage: `url(${heroImage})`,
         backgroundSize: "cover",
         backgroundPosition: "center",
 

@@ -1,3 +1,4 @@
+import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 import Button from "@mui/material/Button";
 
 export function WhatsAppButton() {
@@ -10,7 +11,11 @@ export function WhatsAppButton() {
       variant="contained"
       target="_blank"
       rel="noopener noreferrer"
+      startIcon={<WhatsAppIcon />}
       sx={{
+        fontSize: "1.1rem",
+        padding: "12px 28px",
+        fontWeight: "bold",
         color: "rosaAconchego",
         borderColor: "rosaAconchego",
         "&:hover": {
