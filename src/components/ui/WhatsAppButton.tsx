@@ -2,7 +2,7 @@ import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 import Button from "@mui/material/Button";
 
 export function WhatsAppButton() {
-  const phone = "";
+  const phone = import.meta.env.VITE_WHATSAPP_PHONE;
   const message = "Olá, gostaria de fazer um pedido!";
   const url = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
   return (
