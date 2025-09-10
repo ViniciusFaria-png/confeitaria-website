@@ -1,9 +1,24 @@
 import "./App.css";
+import {
+  About,
+  Contact,
+  Footer,
+  Gallery,
+  Header,
+  Hero,
+  Menu,
+} from "./components";
 
 function App() {
   return (
     <>
-      <h1>Que seja Doce!</h1>
+      <Header></Header>
+      <Hero></Hero>
+      <About></About>
+      <Menu></Menu>
+      <Gallery></Gallery>
+      <Contact></Contact>
+      <Footer></Footer>
     </>
   );
 }

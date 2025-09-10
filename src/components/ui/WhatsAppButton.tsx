@@ -11,12 +11,12 @@ export function WhatsAppButton() {
       target="_blank"
       rel="noopener noreferrer"
       sx={{
-        color: "#E91E63",
-        borderColor: "#E91E63",
+        color: "rosaAconchego",
+        borderColor: "rosaAconchego",
         "&:hover": {
-          borderColor: "#C2185B",
-          color: "#fff",
-          backgroundColor: "#E91E63", // Um fundo rosa bem clarinho
+          borderColor: "#vermelhoCereja",
+          color: "chocolate.main",
+          backgroundColor: "#vermelhoCereja",
         },
       }}
     >
