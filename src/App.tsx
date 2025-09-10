@@ -1,18 +1,12 @@
 import "./App.css";
-import {
-  About,
-  Contact,
-  Footer,
-  Gallery,
-  Header,
-  Hero,
-  Menu,
-} from "./components";
+import { About, Contact, Footer, Gallery, Hero, Menu } from "./components";
+import { Navbar } from "./components/Navbar/Navbar";
 
 function App() {
   return (
     <>
-      <Header></Header>
+      <Navbar></Navbar>
+      {/* <Header></Header> */}
       <Hero></Hero>
       <About></About>
       <Menu></Menu>

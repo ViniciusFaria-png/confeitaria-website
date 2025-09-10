@@ -1,5 +1,6 @@
 import Typography from "@mui/material/Typography";
 import { Box } from "@mui/system";
+import { Navbar } from "../Navbar/Navbar";
 
 export function Header() {
   return (
@@ -7,6 +8,7 @@ export function Header() {
       component="header"
       sx={{ backgroundColor: "sua-cor-de-fundo-aqui", padding: "1rem 0" }}
     >
+      <Navbar></Navbar>
       <Typography
         variant="h1"
         component="h1"

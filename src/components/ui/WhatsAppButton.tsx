@@ -7,7 +7,7 @@ export function WhatsAppButton() {
   return (
     <Button
       href={url}
-      variant="outlined"
+      variant="contained"
       target="_blank"
       rel="noopener noreferrer"
       sx={{
@@ -15,8 +15,8 @@ export function WhatsAppButton() {
         borderColor: "rosaAconchego",
         "&:hover": {
           borderColor: "#vermelhoCereja",
-          color: "chocolate.main",
-          backgroundColor: "#vermelhoCereja",
+          color: "#vermelhoCereja",
+          backgroundColor: "chocolate.main",
         },
       }}
     >
